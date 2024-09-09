@@ -2930,7 +2930,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #45558d;
+				background-color: #8B4513;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -3337,7 +3337,7 @@ input, select, textarea {
 				}
 
 					#menu .links li a:hover {
-						background: #45558d;
+						background: #8B4513;
 					}
 
 		@media screen and (max-width: 736px) {
@@ -3828,19 +3828,19 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #45558d;
+				background-color: #8B4513;
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%238B4513%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style2:before {
-					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+					box-shadow: inset 0 -1px 0 0 #8B4513, 0 1px 0 0 #8B4513;
 				}
 
 				.wrapper.spotlight.style2:after {
-					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+					box-shadow: inset 0 -1px 0 0 #8B4513, 0 1px 0 0 #8B4513;
 				}
 
 			.wrapper.spotlight.style3 {
@@ -4248,4 +4248,87 @@ header {
 /* Sombra do texto para melhorar legibilidade */
 #banner h2, #banner p {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+/* Seção de redes sociais */
+.social-links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.platform {
+	text-align: center;
+	color: #ffffff; /* Cor branca para o texto */
+	text-decoration: none;
+	transition: transform 0.2s ease-in-out;
+}
+
+.platform img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.platform span {
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.platform:hover {
+	transform: scale(1.1);
+}
+
+/* Ajuste de cores específicas para cada plataforma */
+.platform.youtube span {
+	color: #FF0000; /* Vermelho YouTube */
+}
+
+.platform.instagram span {
+	color: #E4405F; /* Rosa Instagram */
+}
+
+.platform.spotify span {
+	color: #1DB954; /* Verde Spotify */
+}
+
+/* Background e cores gerais */
+#two {
+	background-color: #65350F; /* Cor marrom */
+	color: #ffffff; /* Texto branco para contraste */
+	padding: 50px 0;
+}
+
+#two h2 {
+	color: #ffffff;
+}
+
+#two p {
+	color: #e6d4bc;
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Estilo do botão CTA */
+.cta-button {
+	background-color: #FF4500;
+	color: white;
+	padding: 15px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 20px;
+	transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+	background-color: #FF6347;
 }
